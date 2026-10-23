@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.reder {
+    background-color: #565656;
+    padding: 6px;
+    padding-left: 70px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+
+
+ul,a{
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ffffff;
+    border: #ffffff 3px solid;
+}

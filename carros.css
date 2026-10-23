@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.reder {
+    width: 100%;
+    height: 15vh;
+    background-color: #565656;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo img{
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
+ul,a{
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ffffff;
+    border: #ffffff 3px solid;
+}
+footer{
+    background-color: #565656;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    text-align: center;
+    font-family: tahoma;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa input {
+    width: 250px;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.pesquisa button {
+    height: 40px;
+    width: 50px;
+    border: none;
+    background-color: #000;
+    color: white;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.pesquisa button:hover {
+    background-color: #333;
+}
+
+i {
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    height: 130vh;
+    background-color: #070707;
+    font-family: georgia;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.textoo{
+    background-color: #fffbfb;
+    color: #595959;
+}
+
+.btn-comprar {
+    background-color: #00ff26;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-comprar:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+.carros {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding: 30px 40px;
+}
+
+.carro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.carro img {
+    width: 300px;
+    display: block;
+}
+
+.btn-comprar {
+    width: 140px;
+    padding: 12px;
+    background-color: #00ff22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-comprar:hover {
+    background-color: #00cc1b;
+}
